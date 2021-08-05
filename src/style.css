@@ -1,0 +1,214 @@
+           :root {
+              --backround: #1E1F26;
+              --text: #ff6e40;
+              --white: #c7ecee;
+              --yellow: #ffc13b;
+              --header: #1D1D25;
+              --content: #1D1D25;
+          }
+          
+          #root {
+              width: 100%;
+          }
+          
+          body {
+              margin: 0;
+              font-family: -apple-system, BlinkMacSystemFont, 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+          }
+          
+          * {
+              margin: 0;
+              box-sizing: border-box;
+          }
+          
+          html {
+              position: relative;
+              color: var(--text);
+          }
+          
+          .container-fluid {
+              width: 100%;
+              max-width: 1200px;
+              margin: 0 auto;
+              box-sizing: border-box;
+              justify-content: space-evenly;
+          }
+          
+          .background-content {
+              background-color: var(--content);
+              padding: 1rem;
+          }
+          /* Line chart */
+          
+          .country-select {
+              padding: 1rem;
+          }
+          
+          .padding-2 {
+              padding: 1rem 0
+          }
+          
+          .border-2 {
+              border-radius: 1rem;
+          }
+          
+          .highcharts-credits {
+              display: none;
+          }
+          
+          .btn-report {
+              display: flex;
+              justify-content: flex-end;
+              padding: 1rem 0rem 1rem 1rem;
+          }
+          
+          .highcharts-title {
+              padding-top: 1rem;
+          }
+          
+          .ant-card {
+              border-radius: .5rem;
+          }
+          /* header bar */
+          
+          .background-container {
+              background-color: var(--backround);
+          }
+          
+          .logo {
+              color: var(--white);
+              font-weight: 800;
+          }
+          
+          .menu-item {
+              text-align: right;
+              color: var(--white);
+              cursor: pointer;
+          }
+          
+          @media screen and (max-width: 767px) {
+              .padding-mobile {
+                  padding: 1rem
+              }
+          }
+          
+          @media screen and (max-width: 576px) {
+              .ant-layout-header {
+                  padding: 0px 10px;
+              }
+              .hight-light {
+                  padding: .5rem;
+              }
+              .padding-mobile {
+                  padding: 1rem
+              }
+          }
+          /* country select */
+          
+          .ant-select-single {
+              background-color: #222f3e;
+          }
+          
+          .ant-select-item-option-content {
+              color: #fff;
+          }
+          
+          .ant-select-item {
+              background-color: #333131;
+          }
+          
+          .ant-select-dropdown {
+              background-color: #333131;
+          }
+          
+          .border-content {
+              border-radius: .5rem;
+          }
+          
+          .padding-content {
+              padding-top: .5rem;
+          }
+          
+          .padding {
+              padding-top: 1rem;
+              padding-bottom: .5rem;
+          }
+          
+          .title {
+              font-weight: 700;
+              font-size: 1.6rem;
+              color: var(--white)
+          }
+          
+          .data-time {
+              color: var(--white);
+          }
+          
+          .card__wrap {}
+          
+          .card__title {
+              font-weight: 600;
+              font-size: .9rem;
+              color: var(--text);
+              padding-bottom: .3rem;
+          }
+          
+          .card__count {
+              padding-top: .3rem;
+              font-weight: 600;
+              font-size: 1.2rem;
+              margin: 0;
+              color: #ffbe76
+          }
+          
+          .card__icon {
+              display: flex;
+              justify-content: center;
+              color: #fff;
+              font-size: 1.8rem;
+          }
+          
+          .ant-empty-description {
+              color: var(--white);
+          }
+          
+          .country-select {
+              display: flex;
+              justify-content: flex-end;
+          }
+          
+          .ant-layout-header {
+              background-color: var(--header);
+          }
+          
+          .ant-card-body {
+              padding: 1rem
+          }
+          
+          .ant-empty-normal {
+              margin: 0;
+          }
+          
+          .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+              background-color: #333131;
+              border: 0px solid;
+              color: #fff;
+          }
+          
+          .ant-select-item-option-content {
+              color: #fff
+          }
+          
+          .ant-select-item-option-content:hover {
+              color: #000
+          }
+          
+          .footer {
+              display: flex;
+              align-items: center;
+              flex-direction: row;
+              text-align: right;
+              justify-content: flex-end;
+          }
