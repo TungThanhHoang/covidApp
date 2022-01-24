@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Row, Col, Menu } from "antd";
+import { Layout, Row, Col } from "antd";
 import { ExclamationCircleOutlined } from "@ant-design/icons";
 
 const { Header } = Layout;

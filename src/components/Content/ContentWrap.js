@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Row } from "antd";
+import {  Row } from "antd";
 import HightLight from "../HightLight/HightLight";
 export default function ContentWrap({ report }) {
   const data = report && report.length ? report[report.length - 1] : "";

@@ -10,7 +10,6 @@ const generateOptions = (data) => {
     chart: {
       height: 540,
       backgroundColor: "#1E1F26",
-      colors: "#FFF",
       polar: true,
       type: "line",
       style: {
