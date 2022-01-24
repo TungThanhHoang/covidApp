@@ -32,7 +32,6 @@ const generateOptions = (data) => {
         },
       },
     },
-    colors: ["#fff"],
     colors: ["#F4F0F0", "#D08616", "#12B1B9", "#7B3924"],
     yAxis: {
       min: 0,
